@@ -1,2 +1,2 @@
 ### Description
-> - All things I've learned in Kaggle learning platform will be stored here.
+> - All things I've learned in Kaggle learning platform will be srored here.
