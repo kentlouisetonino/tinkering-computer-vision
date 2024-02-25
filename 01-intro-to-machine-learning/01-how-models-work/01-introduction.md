@@ -25,7 +25,7 @@ predictions for new houses he is considering.
 > - But decision trees are easy to understand, and they are the building block for
     some of the best models in data science.
 
-![Sample Decision Tree](./image-sample-decision-tree.png)
+![Decision Tree 1](./image-decision-tree-1.png)
 
 <br />
 
