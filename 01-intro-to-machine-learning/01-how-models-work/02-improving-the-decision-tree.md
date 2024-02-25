@@ -25,7 +25,7 @@ home price, like number of bathrooms, lot size, location, etc.
 <br />
 
 ```plaintext
-You predict the price of any house by tracing through the decision tree, alwasy picking
+You predict the price of any house by tracing through the decision tree, always picking
 the path corresponding to that house's characteristics. The predicted price for the
 house is at the bottom of the tree.
 ```
