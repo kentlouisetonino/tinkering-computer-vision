@@ -7,10 +7,13 @@ import pandas as pd
 melbourne_file_path = './data_melbourne_housing.csv'
 
 # Read the data and store data in DataFrame.
-melbourne_dataframe = pd.read_csv(melbourne_file_path)
+melbourne_df = pd.read_csv(melbourne_file_path)
 
-# Summary of the data in Melbourne data.
-melbourne_summary = melbourne_dataframe.describe()
+# Melbourne data sections.
+melbourne_summary = melbourne_df.describe()
+melbourne_columns_list = melbourne_df.columns
 
-# Print the summary
-print(melbourne_summary)
+# Print the sections.
+print("**DATA SUMMARY**", "\n", melbourne_summary)
+print("\n")
+print("**DATA COLUMNS LIST**", "\n", melbourne_columns_list)
