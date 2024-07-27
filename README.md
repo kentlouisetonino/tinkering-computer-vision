@@ -1,3 +1,3 @@
-### DESCRIPTION
-##
-> - All things I've learned that related to Python.
+## $\textnormal{Description}$
+
+> - Anythin related to computer vision.
