@@ -2,6 +2,13 @@
 
 > - Anythin related to computer vision.
 
+<br />
+<br />
+
+
+
+## $\textnormal{OpenCV Python Guides}$
+
 ```plaintext
-OpenCV Docs: https://docs.opencv.org/4.x/index.html
+https://pypi.org/project/opencv-python/
 ```
