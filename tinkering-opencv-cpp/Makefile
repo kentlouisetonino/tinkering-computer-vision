@@ -1,3 +1,3 @@
 code-read-image:
-	g++ -o bin/code-read-image code-read-image.cpp
+	g++ -I/usr/local/include/opencv4 code-read-image.cpp -o bin/code-read-image
 	bin/code-read-image
