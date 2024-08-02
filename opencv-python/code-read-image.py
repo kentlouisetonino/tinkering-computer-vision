@@ -1,13 +1,16 @@
-import cv2 as cv
+import cv2
 import sys
 
-img = cv.imread(cv.samples.findFile("images/drone.jpg"))
+# Read the image.
+img = cv2.imread(cv2.samples.findFile("images/drone.jpg"))
+
+print(img)
 
 if img is None:
     sys.exit("Could not read the image.")
 
-cv.imshow("Display window", img)
-k = cv.waitKey(0)
+cv2.imshow("Display window", img)
+k = cv2.waitKey(0)
 
 if k == ord("s"):
-    cv.imwrite("starry_night.png", img)
+    cv2.imwrite("drone.jpg", img)
