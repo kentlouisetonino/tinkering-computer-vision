@@ -9,8 +9,10 @@ img = cv2.imread(cv2.samples.findFile("images/drone.jpg"))
 if img is None:
     sys.exit("Could not read the image.")
 
-# Display the image.
-cv2.imshow("Drone Image", img)
+#  Display the image.
+cv2.namedWindow("drone.jpg", cv2.WINDOW_NORMAL)
+cv2.resizeWindow("drone.jpg", 500, 500)
+cv2.imshow("drone.jpg", img)
 
 # Wait for the user to enter a key.
 cv2.waitKey(0)
