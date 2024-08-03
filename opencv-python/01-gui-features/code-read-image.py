@@ -3,7 +3,7 @@ import sys
 
 # Read the image.
 # If you print the img, it return a matrix of pixels with values from 0 to 255.
-img = cv2.imread(cv2.samples.findFile("images/drone.jpg"))
+img = cv2.imread(cv2.samples.findFile("../images/drone.jpg"))
 
 # Check if the file exist.
 if img is None:

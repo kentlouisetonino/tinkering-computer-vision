@@ -1,7 +1,7 @@
 import cv2
 
 # Capture the video using a camera.
-capture = cv2.VideoCapture("videos/optical-illusion.mp4")
+capture = cv2.VideoCapture("../videos/optical-illusion.mp4")
 
 # Check if camera is open.
 if not capture.isOpened():
