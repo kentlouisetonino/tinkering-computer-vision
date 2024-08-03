@@ -9,7 +9,8 @@ if image is None:
     exit()
 
 # Add a diagonal line on the image.
-cv2.line(image, (50, 50), (1900, 1900), (255, 0, 0), 20)
+cv2.line(image, (50, 50), (1900, 1900), (10, 20, 100), 20)
+cv2.line(image, (1900, 1900), (1900, 10), (255, 0, 0), 30)
 
 # Set the dimensions and other meta data of the image window.
 cv2.namedWindow("Drawing Line with Image", cv2.WINDOW_NORMAL)
