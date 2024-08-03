@@ -1,4 +1,5 @@
 import cv2
+import time
 
 # Capture the video using a camera.
 capture = cv2.VideoCapture("../videos/optical-illusion.mp4")
@@ -26,6 +27,9 @@ while True:
     # Press q to exit.
     if cv2.waitKey(1) == ord("q"):
         break
+
+    # Wait for a couple of seconds.
+    time.sleep(0.05)
 
 capture.release()
 cv2.destroyAllWindows()
